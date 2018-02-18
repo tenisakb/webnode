@@ -1,6 +1,12 @@
+<<<<<<< HEAD
 const STORAGE_BROKERNODE_ADD = 'directories/storage/brokernode/add';
 const STORAGE_WEBNODE_ADD = 'directories/storage/webnode/add';
 const STORAGE_GENESISHASH_ADD = 'directories/storage/genesishash/add';
+=======
+const STORAGE_BROKERNODE_ADD = "directories/storage/brokernode/add";
+const STORAGE_WEBNODE_ADD = "directories/storage/webnode/add";
+const STORAGE_GENESISHASH_ADD = "directories/storage/genesishash/add";
+>>>>>>> 96146fbce409406283c243842f735c92a2f9185c
 const ACTIONS = Object.freeze({
   // actions
   STORAGE_BROKERNODE_ADD,

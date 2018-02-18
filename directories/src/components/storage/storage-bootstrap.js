@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 import React, { Component } from 'react';
+=======
+import React, { Component } from "react";
+>>>>>>> 96146fbce409406283c243842f735c92a2f9185c
 
 class StorageBootstrap extends Component {
 
@@ -11,15 +15,22 @@ class StorageBootstrap extends Component {
       storageGenesisHashAddFn
     } = props;
 
+<<<<<<< HEAD
     console.log('Storage BrokerNode -> ' + storage.brokerNode);
     console.log('Storage WebNode -> ' + storage.webNode);
     console.log('Storage GenesisHash -> ' + storage.genesisHash);
+=======
+    console.log("Storage BrokerNode -> " + storage.brokerNode);
+    console.log("Storage WebNode -> " + storage.webNode);
+    console.log("Storage GenesisHash -> " + storage.genesisHash);
+>>>>>>> 96146fbce409406283c243842f735c92a2f9185c
 
     storageBrokerNodeAddFn('Next BrokerNode');
     storageWebNodeAddFn('Next WebNode');
     storageGenesisHashAddFn('Next GenesisHash');
 
     this._getRandomItemFn(storage);
+<<<<<<< HEAD
 
     console.log('DEMO 2');
     const randomStorage = this._getRandomStorage();
@@ -51,6 +62,8 @@ class StorageBootstrap extends Component {
         storageTitle = '_getStorageTitleFn -> default';
     }
     return storageTitle;
+=======
+>>>>>>> 96146fbce409406283c243842f735c92a2f9185c
   }
 
   _getRandomItemFn(storage) {
@@ -75,6 +88,7 @@ class StorageBootstrap extends Component {
   }
 
   _getStorageTitleFn(random) {
+<<<<<<< HEAD
     let storageTitle = '';
     switch(random){
       case 0:
@@ -88,6 +102,13 @@ class StorageBootstrap extends Component {
         break;
       default:
         storageTitle = '_getStorageTitleFn -> default';
+=======
+    let storageTitle = [];
+    if(random === 0) {
+      storageTitle = 'storage.brokerNode';
+    } else {
+      storageTitle = 'storage.webNode';
+>>>>>>> 96146fbce409406283c243842f735c92a2f9185c
     }
     return storageTitle;
   }

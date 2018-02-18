@@ -1,8 +1,16 @@
+<<<<<<< HEAD
 import React from 'react';
 import { connect } from 'react-redux';
 
 import storageActions from '../../redux/actions/storage-actions';
 import StorageBootstrap from 'components/storage/storage-bootstrap';
+=======
+import React from "react";
+import { connect } from "react-redux";
+
+import storageActions from "../../redux/actions/storage-actions";
+import StorageBootstrap from "components/storage/storage-bootstrap";
+>>>>>>> 96146fbce409406283c243842f735c92a2f9185c
 
 const mapStateToProps = state => ({
 	storage: state.storage
